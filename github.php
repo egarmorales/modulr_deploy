@@ -17,5 +17,4 @@
 
 // die("done " . mktime());
 
-
-echo shell_exec("http://www.alfredobarron.com/prueba pull 2>&1");
+echo shell_exec("/etc/var/www/html/prueba pull 2>&1");
