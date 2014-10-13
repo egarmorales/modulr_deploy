@@ -17,4 +17,4 @@
 
 // die("done " . mktime());
 
-echo shell_exec("/etc/var/www/html/prueba pull 2>&1");
+echo shell_exec("/etc/var/www/html/prueba/modulr/modulr pull 2>&1");
