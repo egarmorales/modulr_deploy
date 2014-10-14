@@ -1,5 +1,7 @@
 <?php
 
+exec('git pull');
+
 // // Init vars
 // $LOCAL_ROOT         = "http://www.alfredobarron.com";
 // $LOCAL_REPO_NAME    = "prueba";
@@ -17,4 +19,4 @@
 
 // die("done " . mktime());
 
-echo shell_exec("/etc/var/www/html/prueba/modulr/modulr pull 2>&1");
+//echo shell_exec("/etc/var/www/html/prueba/modulr/modulr pull 2>&1");
