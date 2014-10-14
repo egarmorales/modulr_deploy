@@ -4,11 +4,11 @@
 
 
 if( ini_get('safe_mode') ){
-    // Do it the safe mode way
-    echo 'modo seguri'
+	// Do it the safe mode way
+	echo 'modo seguri';
 }else{
-    // Do it the regular way
-    echo exec('git pull')
+	// Do it the regular way
+	echo exec('git pull');
 }
 
 
