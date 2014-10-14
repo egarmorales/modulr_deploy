@@ -1,6 +1,4 @@
-<?php
-
-echo exec('git pull');
+<?php 'git pull';
 
 // // Init vars
 // $LOCAL_ROOT         = "http://www.alfredobarron.com";
