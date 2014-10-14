@@ -1,7 +1,18 @@
 <?php
 
 //'git pull';
-echo exec('git pull');
+
+
+if( ini_get('safe_mode') ){
+    // Do it the safe mode way
+    echo 'modo seguri'
+}else{
+    // Do it the regular way
+    echo exec('git pull')
+}
+
+
+;
 //echo shell_exec('git pull');
 
 // // Init vars
